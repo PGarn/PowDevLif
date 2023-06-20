@@ -1,0 +1,18 @@
+IN ENGLISH:
+In this study, several choices were made regarding the models used:
+
+1. The chosen **loss model** is a simplified model, based on the case of a command with a sinusoidal reference in linear scalar modulation. This choice was made due to the simplicity and ease of implementation of this model, compared to other more complex loss models.
+
+2. The **thermal model** used is the Foster type model, chosen for its ability to effectively describe the system's thermal behavior. Other models, such as the Cauer model, could have been used.
+
+3. Regarding the **lifespan laws**, an empirical law based on data from accelerated cycling was used, specifically the Coffin-Manson model. This choice was made due to this model's ability to effectively predict the component's lifespan based on temperature variations. Other laws based on different models or data could have been used.
+
+
+EN FRANCAIS:
+Dans cette étude, plusieurs choix ont été faits concernant les modèles utilisés :
+
+1. Le **modèle de perte** choisi est un modèle simplifié, basé sur le cas d'une commande avec une référence sinusoïdale en modulation scalaire linéaire. Ce choix a été fait en raison de la simplicité et de la facilité d'implémentation de ce modèle, par rapport à d'autres modèles de perte plus complexes.
+
+2. Le **modèle thermique** utilisé est le modèle type Foster, choisi pour sa capacité à décrire efficacement le comportement thermique du système. D'autres modèles, comme le modèle Cauer, auraient pu être utilisés.
+
+3. En ce qui concerne les **lois de durée de vie**, une loi empirique basée sur des données provenant de cyclage accéléré a été utilisée, en particulier le modèle de Coffin-Manson. Ce choix a été fait en raison de la capacité de ce modèle à prédire efficacement la durée de vie du composant en fonction des variations de température. D'autres lois basées sur d'autres modèles ou données auraient pu être utilisées.

@@ -56,7 +56,7 @@ However, to the best of the authors' knowledge, there is no open-source python p
 # Statement of need
 PowDevLif is a python package to estimate the lifetime of a power device with the use of an electric, a thermal and a power cycling model.
 
-![PowDevLif methode for lifetime prediction of an IGBT device.\label{fig:example}](WorkingDiagram.png)
+![PowDevRUL methode for lifetime prediction of an IGBT device.\label{fig:example}](WorkingDiagram.png)
 
 \autoref{fig:example} shows the general structure of the method. First, the input data are defined, represented by the stresses applied to the product (working cycle) and the physics of the DUT (electrical parameters, thermal parameters and its lifetime model). Secondly, the input data are implemented in a physical loss model, enabling the DUT's losses to be calculated over an operating cycle. The losses are used to calculate the temperature rise using a thermal model. A counting algorithm determines the temperature cycles undergone by the DUT, which are then compared with a cumulative damage law to determine the number of times the DUT can perform the input duty cycle.
 
@@ -83,11 +83,11 @@ $$P_{com,IGBT} = s_{sw}\cdot E_{rr}\frac{\sqrt{2}}{\pi}(\frac{I}{I_{ref}})^{K_{I
 
 $P_{cond}$ represents conduction losses and $P_{com}$ switching losses. $K_{V,IGBT}$, $K_{V,diode}$ and $K_{I,diode}$ are voltage and current dependence coefficients.
 
-2. The thermal model is Foster-type, chosen for its ability to describe 
+2. The thermal model is Foster-type, \autoref{fig:example2}, chosen for its ability to describe 
 thermal behavior of the system. Other models, such as the Cauer, 
 could have been used [@6631903].
 
-![Thermal model chosen for the programm.\label{fig:example}](ThermalModel.png)
+![Thermal model implemented in PowDevLif.\label{fig:example2}](ThermalModel.png)
 
 3. With regard to lifetime model, an empirical law based on data from accelerated cycling was used, 
 in particular the Coffin-Manson and Arrhenius model [@9316255].

@@ -1,4 +1,4 @@
-## PowDevLif(Power Device Remaining Useful Life)
+## PowDevLif(Power Device Lifetime estimation)
 
 Open-source project for thermal analysis and modeling of power electronic components. This project aims to provide a library platform for performing power loss calculations, estimating component temperatures, and predicting their operational lifetime. It includes features for data retrieval from Excel files, signal processing, power loss calculations, thermal modeling, and cumulative damage analysis. The project utilizes popular libraries such as NumPy, Pandas, SciPy, Matplotlib, and Rainflow for data manipulation, scientific computation, and result visualization.
 

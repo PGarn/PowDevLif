@@ -1,6 +1,6 @@
 from numpy import convolve
-from src.powdevlif.function.materials import Materials
-from src.powdevlif.function.poly_somme import poly_somme
+from powdevlif.function.materials import Materials
+from powdevlif.function.poly_somme import poly_somme
 
 class ZthMaterials:
   """

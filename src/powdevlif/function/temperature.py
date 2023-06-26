@@ -1,5 +1,5 @@
 from scipy import signal
-from src.powdevlif.function.zth_materials import ZthMaterials
+from powdevlif.function.zth_materials import ZthMaterials
 
 def calculate_temperature( losses, dic, file):
     """

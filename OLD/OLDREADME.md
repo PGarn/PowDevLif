@@ -42,14 +42,14 @@ To use your own data, simply replace the files in the "examples" directory. The 
 
 /!\ Make sure to provide the correct path to the Excel file to ensure proper data retrieval (line 52 in "variables.py").
 
-To run the program, execute the "lifetime.py" file. Once everything is launched successfully, call the "rul_calculation()" function. It will return the following values in order: "lifetime_IGBT", "lifetime_diode", "number_of_km_IGBT", "e_kwh_byhours", and "efficiency".
+To run the program, execute the "lifetime.py" file. Once everything is launched successfully, call the "pdl_calculation()" function. It will return the following values in order: "lifetime_IGBT", "lifetime_diode", "number_of_km_IGBT", "e_kwh_byhours", and "efficiency".
 
 If you want to display the graphs for Torque, Speed, Current, and Total losses, you can uncomment line 38 in the "lifetime.py" file. This will enable the code to plot and show the graphs.
 
-To integrate this program into your own script, you need to import the lifetime.py file. Following this, the function rul_calculation can be invoked. Here's an example demonstrating this:
+To integrate this program into your own script, you need to import the lifetime.py file. Following this, the function pdl_calculation can be invoked. Here's an example demonstrating this:
 
 - import lifetime
-- lifetime_IGBT, lifetime_diode = lifetime.rul_calculation()
+- lifetime_IGBT, lifetime_diode = lifetime.pdl_calculation()
 
 You can return more data like: "number_of_km_IGBT", "e_kwh_byhours", and "efficiency" by modifying line 44 in "lifetime.py"
 ## Example

@@ -1,6 +1,6 @@
 # Function Documentation
 
-## Main function: `rul_calculation`
+## Main function: `pdl_calculation`
 
 This function executes a sequence of calculations related to thermal and electrical properties of some materials, based on data from an Excel file.
 

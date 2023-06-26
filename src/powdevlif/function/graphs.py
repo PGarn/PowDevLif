@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from src.powdevlif.function.matrix import show_matrix
+from powdevlif.function.matrix import show_matrix
 
 def graph(file, dic, losses, temp_IGBT, temp_diode, temp_case, counter_IGBT, counter_diode):
     """

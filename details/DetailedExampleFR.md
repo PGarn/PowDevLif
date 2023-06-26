@@ -1,6 +1,6 @@
 # Documentation des fonctions
 
-## Fonction principale : `rul_calculation`
+## Fonction principale : `pdl_calculation`
 
 Cette fonction exécute une séquence de calculs liés aux propriétés thermiques et électriques de certains matériaux, basée sur des données d'un fichier Excel.
 

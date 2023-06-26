@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='PowDevLif',
-    version='1.0.27',
+    version='0.0.3',
     description ='The project aims to assess the lifetime and efficiency of electronic components by using thermal and electrical calculations based on data from an Excel file. Authors: Paul Garnier (paul.garnier@ens-rennes.fr), Briac Baudais (briac.baudais@ens-rennes.fr)',
     readme='README.md',
     license='MIT',

@@ -1,13 +1,13 @@
 import pandas as pd
 # Importing required modules from the local directories
-from src.powdevlif.function.counters import count
-from src.powdevlif.function.cumul_endommagement import calculate_damage_cumulation
-from src.powdevlif.function.losses import Losses
-from src.powdevlif.function.temperature import calculate_temperature
-from src.powdevlif.function.graphs import graph
-from src.powdevlif.function.path_reader import import_variables
+from powdevlif.function.counters import count
+from powdevlif.function.cumul_endommagement import calculate_damage_cumulation
+from powdevlif.function.losses import Losses
+from powdevlif.function.temperature import calculate_temperature
+from powdevlif.function.graphs import graph
+from powdevlif.function.path_reader import import_variables
 
-def rul_calculation(variables_file_path):
+def pdl_calculation(variables_file_path):
   """
   This function executes a sequence of calculations related to thermal 
   and electrical properties of some materials, based on data from an Excel file.
@@ -45,7 +45,7 @@ def rul_calculation(variables_file_path):
   # Return the calculated lifetimes and other datas
   return (results[0:3]) #add  e_kwh_byhours if you want
 
-def rul_graphs(variables_file_path):
+def pdl_graphs(variables_file_path):
   """
   This function executes a sequence of calculations related to thermal 
   and electrical properties of some materials, based on data from an Excel file.

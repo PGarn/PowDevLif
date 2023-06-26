@@ -40,13 +40,13 @@ Pour utiliser la bibliothèque une fois installée, il vous suffit de l'importer
 
 `import PowDevLif.lifetime`
 
-Une fois ce module chargé, vous pouvez utiliser la fonction rul_calculation en lui fournissant le chemin vers votre dictionnaire de variables, par exemple ("C:/Votre/chemin/vers/variables.py"). Dans votre code, l'appel de fonction doit ressembler à ceci :
+Une fois ce module chargé, vous pouvez utiliser la fonction pdl_calculation en lui fournissant le chemin vers votre dictionnaire de variables, par exemple ("C:/Votre/chemin/vers/variables.py"). Dans votre code, l'appel de fonction doit ressembler à ceci :
 
-`résultats = rul_calculation("C:/Votre/chemin/vers/variables.py")`
+`résultats = pdl_calculation("C:/Votre/chemin/vers/variables.py")`
 
 Vous pouvez aussi afficher différents graphiques avec l'appel de fonction suivant:
 
-`rul_graphs("C:/Votre/chemin/vers/variables.py")`
+`pdl_graphs("C:/Votre/chemin/vers/variables.py")`
 
 ## Exemple
 Un exemple du code en fonctionnement est détaillé dans le fichier [DetailedExampleFR.md](https://gitlab.com/PGarn/LifeTime_IGBT_Calculation/-/blob/main/details/DetailedExampleFR.md)

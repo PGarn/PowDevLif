@@ -34,13 +34,13 @@ To use the installed library, simply import it into your project with the follow
 
 `import PowDevLif.lifetime`
 
-Once this module is loaded, you can use the `rul_calculation` function by providing the path to your variable dictionary, for example ("C:/Your/path/to/variables.py"). In your code, the function call should look like this:
+Once this module is loaded, you can use the `pdl_calculation` function by providing the path to your variable dictionary, for example ("C:/Your/path/to/variables.py"). In your code, the function call should look like this:
 
-`results = rul_calculation("C:/Your/path/to/variables.py")`
+`results = pdl_calculation("C:/Your/path/to/variables.py")`
 
 You can also display different graphs using the following function call:
 
-`rul_graphs("C:/Your/path/to/variables.py")`
+`pdl_graphs("C:/Your/path/to/variables.py")`
 
 An example of this is available in [main.py]()
 

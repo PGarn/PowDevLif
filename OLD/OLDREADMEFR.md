@@ -42,14 +42,14 @@ Pour utiliser vos propres données, remplacez simplement les fichiers dans le r�
 
 /!\ Assurez-vous de fournir le chemin correct vers le fichier Excel pour garantir une récupération correcte des données (ligne 52 dans "variables.py").
 
-Pour exécuter le programme, exécutez le fichier "lifetime.py". Une fois que tout est lancé avec succès, appelez la fonction "rul_calculation()". Elle renverra les valeurs suivantes dans l'ordre : "lifetime_IGBT", "lifetime_diode", "number_of_km_IGBT", "e_kwh_byhours", et "efficiency".
+Pour exécuter le programme, exécutez le fichier "lifetime.py". Une fois que tout est lancé avec succès, appelez la fonction "pdl_calculation()". Elle renverra les valeurs suivantes dans l'ordre : "lifetime_IGBT", "lifetime_diode", "number_of_km_IGBT", "e_kwh_byhours", et "efficiency".
 
 Si vous voulez afficher les graphiques pour le couple, la vitesse, le courant et les pertes totales, vous pouvez décommenter la ligne 38 du fichier "lifetime.py". Cela permettra au code de tracer et d'afficher les graphiques.
 
-Pour intégrer ce programme dans votre propre script, vous devez importer le fichier lifetime.py. Suite à cela, la fonction rul_calculation peut être invoquée. Voici un exemple qui démontre cela :
+Pour intégrer ce programme dans votre propre script, vous devez importer le fichier lifetime.py. Suite à cela, la fonction pdl_calculation peut être invoquée. Voici un exemple qui démontre cela :
 
 - import lifetime
-- lifetime_IGBT, lifetime_diode = lifetime.rul_calculation()
+- lifetime_IGBT, lifetime_diode = lifetime.pdl_calculation()
 
 Vous pouvez retourner plus de données comme : "number_of_km_IGBT", "e_kwh_byhours", et "efficiency" en modifiant la ligne 44 dans "lifetime.py".
 

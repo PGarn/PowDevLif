@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "PowDevLif"
-version = "1.0.27"
+version = "0.0.3"
 description = "Python package for calculating lifetime of components"
 authors = ["Paul Garnier <paul.garnier@ens-rennes.fr>"]
 readme = "README.md"

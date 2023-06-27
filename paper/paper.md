@@ -47,7 +47,7 @@ bibliography: paper.bib
 Power electronic systems rely heavily on the performance and reliability of switches. 
 The accurate analysis of these components is crucial for designing efficient and durable systems. 
 This article presents a software tool developed to address the need for reliability analysis of power electronics components.
-PowDevLif aims to predict the operational lifetime of power electronics switches (the output is the number of times the DUT can make the operating cycle and the efficiency).
+PowDevLif aims to predict the operational lifetime of power electronics switches (the output is the number of times the device under test (DUT) can make the operating cycle and the efficiency).
 It includes the calculation of losses and temperature rise 
 which is the factor that causes component ageing.
 The method used to determine the number of cycles remaining is described in the literature [@Thoben2008FromVD ;@7837397;@7793633 ;@vehicles2030022] and also used in tools [@Infineon ;@ReliaPE].

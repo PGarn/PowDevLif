@@ -86,8 +86,7 @@ $$P_{com,IGBT} = s_{sw}\cdot E_{rr}\frac{\sqrt{2}}{\pi}(\frac{I}{I_{ref}})^{K_{I
 $P_{cond}$ represents conduction losses and $P_{com}$ switching losses. $K_{V,IGBT}$, $K_{V,diode}$ and $K_{I,diode}$ are voltage and current dependence coefficients.
 
 2. The thermal model is Foster-type  [@6631903], \autoref{fig:example2}, chosen for its ability to describe 
-thermal behavior of the system. It is represented by a transfer function.
-The time response is calculated by discretizing the model with first-order hold.
+thermal behavior of the system. It is represented by a transfer function and its time response is calculated by discretizing it with first-order hold.
 The model used implies no thermal coupling between dies. Other models, such as the Cauer, 
 could have been used.
 

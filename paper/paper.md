@@ -75,11 +75,11 @@ feedback loops on electrical parameters[@SEMIKRON]. This choice was made because
 of the simplicity and ease of implementation.
 
 
-$$P_{cond,IGBT} = (\frac{1}{2\pi}+\frac{m\cdot \cos\Phi}{8})\cdot V_{CE0}\cdot \sqrt{2}\cdot I+(\frac{1}{8}+\frac{m\cdot \cos\Phi}{2\pi})\cdot R_{CE} \cdot 2\cdot I^2$$
+$$P_{cond,IGBT} = (\frac{1}{2\pi}+\frac{m\cdot \cos\Phi}{8})\cdot V_{CE0}\cdot \sqrt{2}\cdot I+(\frac{1}{8}+\frac{m\cdot \cos\Phi}{3\pi})\cdot R_{CE} \cdot 2\cdot I^2$$
 
 $$P_{com,IGBT} = f_{sw} \cdot E_{on+off}\frac{\sqrt{2}}{\pi}\frac{I}{I_{ref}}(\frac{V_{dc}}{V_{ref}})^{K_{V,IGBT}}$$
 
-$$P_{cond,diode} =(\frac{1}{2\pi}+\frac{m\cdot \cos\Phi}{8})\cdot V_{f0}\cdot \sqrt{2}\cdot I+(\frac{1}{8}+\frac{m\cdot \cos\Phi}{2\pi})\cdot R_{f} \cdot 2\cdot I^2$$
+$$P_{cond,diode} =(\frac{1}{2\pi}-\frac{m\cdot \cos\Phi}{8})\cdot V_{f0}\cdot \sqrt{2}\cdot I+(\frac{1}{8}-\frac{m\cdot \cos\Phi}{3\pi})\cdot R_{f} \cdot 2\cdot I^2$$
 
 $$P_{com,IGBT} = s_{sw}\cdot E_{rr}\frac{\sqrt{2}}{\pi}(\frac{I}{I_{ref}})^{K_{I,diode}}(\frac{V_{dc}}{V_{ref}})^{K_{V,diode}}$$
 

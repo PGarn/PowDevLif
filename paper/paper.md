@@ -56,7 +56,7 @@ This method is often used in the community. The present open-source python packa
 # Statement of need
 PowDevLif is a python package to estimate the lifetime of a power device with the use of an electric, a thermal and a power cycling model.
 
-![PowDevRUL methode for lifetime prediction of an IGBT device.\label{fig:example}](WorkingDiagram.png)
+![PowDevLif methode for lifetime prediction of an IGBT device.\label{fig:example}](WorkingDiagram.png)
 
 \autoref{fig:example} shows the general structure of the method. First, the input data are defined, consisting in the use of the product (working cycle) and the physics of the DUT (electrical parameters, thermal parameters and its lifetime model). Secondly, the input data are implemented in a physical loss model, enabling the DUT's losses to be calculated over an operating cycle ( $P(t)$ ). The losses are used to calculate the junction temperature rise using a thermal model ( $Tj(t)$ ). A counting algorithm determines the number of temperature cycles undergone by the DUT ( $ni$ ), which are then compared to the lifetime model ( $Nfi$ ) with a cumulative damage law to determine the number of times the DUT can perform the input duty cycle.
 

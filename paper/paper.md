@@ -119,4 +119,8 @@ It enables in-depth evaluation of component lifetime, optimization of operating 
 This software contributes to the advancement and development of electronic technologies, 
 by providing a tools for the reliability and the long-lasting systems.
 
+# Disclaimer
+
+The library was developed as part of a collaborative thesis between SATIE and Mitsubishi Electric Research Centre Europe. It is important to note that this library is independent and distinct from any Mitsubishi Electric product. Users of the library must acknowledge that it is provided "as is" and without warranty of any kind.
+
 # References

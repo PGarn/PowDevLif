@@ -26,7 +26,7 @@ To use the PowDevLif project, follow these steps:
 
 1. Prepare Data: Replace the example files in the "examples" directory with your own data. The "variables.py" file contains a dictionary where you can store all the necessary data. For the Excel file, ensure that the correct path to the file is provided in the "variables.py" file (line 52).
 
-2. Run the Program: Execute the "lifetime.py" file. If everything is launched successfully, call the "pdl_calculation()" function. It will return the following values in order: "lifetime_IGBT", "lifetime_diode", "number_of_km_IGBT", "e_kwh_byhours", and "efficiency".
+2. Run the Program: Execute the "main.py" file. If everything is launched successfully, call the "pdl_calculation("Your/path/to/variables.py")" function. It will return the following values in order: "lifetime_IGBT", "lifetime_diode", "number_of_km_IGBT", "e_kwh_byhours", and "efficiency".
 
 3. Integrate with Your Script: To integrate the PowDevLif project into your own script, import the "lifetime" module and invoke the "pdl_calculation("Your/path/to/variables.py")" function. Here's an example:
 

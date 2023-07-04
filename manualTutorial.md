@@ -28,10 +28,12 @@ To use the PowDevLif project, follow these steps:
 
 2. Run the Program: Execute the "lifetime.py" file. If everything is launched successfully, call the "pdl_calculation()" function. It will return the following values in order: "lifetime_IGBT", "lifetime_diode", "number_of_km_IGBT", "e_kwh_byhours", and "efficiency".
 
-3. Integrate with Your Script: To integrate the PowDevLif project into your own script, import the "lifetime" module and invoke the "pdl_calculation()" function. Here's an example:
+3. Integrate with Your Script: To integrate the PowDevLif project into your own script, import the "lifetime" module and invoke the "pdl_calculation("Your/path/to/variables.py")" function. Here's an example:
 
+   ```bash
    import lifetime
-   lifetime_IGBT, lifetime_diode = lifetime.pdl_calculation()
+   lifetime_IGBT, lifetime_diode = lifetime.pdl_calculation("Your/path/to/variables.py")
+   ```
    
    You can modify line 44 in "lifetime.py" to return additional data such as "number_of_km_IGBT", "e_kwh_byhours", and "efficiency".
-   If you want to display graphs use pdl_graphs()
+   If you want to display graphs use pdl_graphs("Your/path/to/variables.py")

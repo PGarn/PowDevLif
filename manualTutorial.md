@@ -18,7 +18,7 @@ To install the PowDevLif project, follow these steps:
 
    Use the `pip install` command followed by the library name and version to install each library.
 
-3. Download Project Files: Download all the files from the LifeTime_IGBT_Calculation repository and maintain the same file organization.
+3. Download Project Files: Download all the files from the PowDevLif repository and maintain the same file organization.
 
 ### Usage
 

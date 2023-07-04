@@ -59,7 +59,7 @@ class Losses:
         self.pertes_igbt = self.P_T_cond + self.P_T_sw
 
         # Calculate Diode losses
-        self.P_D_cond = (1/(2*np.pi) + self.m*self.cosphi/8) * self.Vd * np.sqrt(2) * self.i_ref + (1/8 + self.m*self.cosphi/(3*np.pi)) * self.Rd * 2 * self.i_ref**2
+        self.P_D_cond = (1/(2*np.pi) - self.m*self.cosphi/8) * self.Vd * np.sqrt(2) * self.i_ref + (1/8 - self.m*self.cosphi/(3*np.pi)) * self.Rd * 2 * self.i_ref**2
         self.P_D_sw = self.f_sw * self.E_d * np.sqrt(2) / np.pi * (self.i_ref / self.Iref_d)**self.ki_diode * (self.Vdc / self.Vref_d)**self.kv_diode
         self.pertes_diode = self.P_D_cond + self.P_D_sw
 

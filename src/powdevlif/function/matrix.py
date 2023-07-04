@@ -48,7 +48,7 @@ def show_matrix(counter_IGBT, counter_diode):
     # Create a new figure with two subplots
     fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(12, 6))
     ax = axes[0]
-    im = ax.imshow(matrix_1, cmap='plasma', interpolation='nearest')
+    im = ax.imshow(matrix_1, cmap='gray', interpolation='nearest')
     ax.set_title('IGBT')
     ax.set_xlabel('Delta T')
     ax.set_ylabel('Mean Tj')
@@ -60,7 +60,7 @@ def show_matrix(counter_IGBT, counter_diode):
 
     # Plot the second matrix
     ax = axes[1]
-    im = ax.imshow(matrix_2, cmap='plasma', interpolation='nearest')
+    im = ax.imshow(matrix_2, cmap='gray', interpolation='nearest')
     ax.set_title('Diode')
     ax.set_xlabel('Delta T')
     ax.set_ylabel('Mean Tj')

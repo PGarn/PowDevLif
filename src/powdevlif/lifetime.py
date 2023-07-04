@@ -40,7 +40,7 @@ def pdl_calculation(variables_file_path):
   # Calculate the cumulative damage law
   lifetime_IGBT, lifetime_diode, e_kwh_byhours, efficiency = calculate_damage_cumulation(counter_IGBT, counter_Nf_IGBT, counter_diode, counter_Nf_diode, losses, dic, file)
 
-  results=[["IGBT Cycles",lifetime_IGBT],["Diode Cycles",lifetime_diode],["Efficiency",efficiency],["e_kwh_byhours",e_kwh_byhours]]
+  results=[["IGBT Cycles",round(lifetime_IGBT,1)],["Diode Cycles",round(lifetime_diode,1)],["Efficiency",round(efficiency,1)]]
   
   # Return the calculated lifetimes and other datas
   return (results[0:3]) #add  e_kwh_byhours if you want

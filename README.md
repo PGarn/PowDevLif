@@ -45,7 +45,7 @@ You can also display different graphs using the following function call:
 An example of this is available in [main.py]()
 
 ## Example
-An example of the code in action is detailed in the file [DetailedExample.md](https://gitlab.com/PGarn/LifeTime_IGBT_Calculation/-/blob/main/details/DetailedExample.md)
+An example of the code in action is detailed in the file [DetailedExample.md](manualTutorial.md)
 
 ## Contribution
 We welcome all kinds of contributions! To contribute to the project, start by forking the repository, make your proposed changes in a new branch, and create a pull request. Make sure your code is readable and well-documented. Include unit tests if possible.

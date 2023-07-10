@@ -27,7 +27,7 @@ variables = {
     "ki_diode": 0.6,                        # Variation coefficient of the diode leakage current
     "kv_diode": 0.6,                        # Variation coefficient of the diode activation voltage
   
-    # Global thermal parameters  (single die)
+    # Global thermal parameters
     "Rth_ch": 0.05 / 6,                     # Convective cooling thermal resistance of the assembly in degrees Celsius per watt
     "Cth_ch": 0,                            # Convective cooling thermal capacitance of the assembly in joules per degree Celsius
     "Rth_hf": 0.06 / 6,                     # Heat conduction cooling thermal resistance in degrees Celsius per watt
